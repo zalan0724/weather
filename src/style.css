@@ -17,18 +17,16 @@ html{
 body{
     margin: 0;
     padding: 0;
-    width: 100%;
-    height: 100%;
 }
 
 .App {
-    height: 100vh;
-    padding: 20px;
+    height: 100%;
 }
 
 .grid{
     height: 100%;
     display: grid;
+    margin: 20px;
     grid-gap: 20px;
     grid-template-columns: 0.5fr 1.5fr;
     grid-template-rows: 80px auto auto;
