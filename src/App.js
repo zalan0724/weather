@@ -35,19 +35,21 @@ export default function App() {
 
   return (
     <div className="App">
-      <Header getCity={getCityName} />
-      {isLoading ? <img src={loading} /> : ""}
-      {isLoading ? (
-        ""
-      ) : (
-        <Current
-          current={currentWeather}
-          minMax={detailedWeather.daily[0].temp}
-          rain={detailedWeather.daily[0].pop}
-        />
-      )}
-      {isLoading ? "" : <DetailedHourly data={detailedWeather.hourly} />}
-      {isLoading ? "" : <DetailedDaily data={detailedWeather.daily} />}
+      <div className="grid">
+        <Header getCity={getCityName} />
+        {isLoading ? <img src={loading} /> : ""}
+        {isLoading ? (
+          ""
+        ) : (
+          <Current
+            current={currentWeather}
+            minMax={detailedWeather.daily[0].temp}
+            rain={detailedWeather.daily[0].pop}
+          />
+        )}
+        {isLoading ? "" : <DetailedHourly data={detailedWeather.hourly} />}
+        {isLoading ? "" : <DetailedDaily data={detailedWeather.daily} />}
+      </div>
     </div>
   );
 }
