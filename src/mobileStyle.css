@@ -1,6 +1,11 @@
 @media screen and (max-width: 700px){
+    html{
+        overflow: hidden;
+    }
     .App{
         height: 100%;
+        padding: 20px;
+        overflow: auto;
     }
     .grid{
         display: grid;
@@ -34,5 +39,9 @@
         grid-column-end: 2;
         grid-row-start: 4;
         grid-row-end: 5;
+    }
+
+    .Tab{
+        width: 98%;
     }
 }
