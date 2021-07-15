@@ -1,0 +1,31 @@
+.Current{
+    background: rgb(39, 103, 219);
+    background: linear-gradient(45deg, #0E96DC 80%, rgb(238, 218, 59) 100%);
+}
+
+h1{
+    margin: 0;
+}
+
+h2{
+    margin: 0;
+}
+h3{
+    display:inline-block;
+}
+
+.currentElement{
+    margin-bottom: 10px;
+    color: white;
+}
+
+.currentTemp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.8em;
+}
+
+.minMax{
+    margin-bottom: 20px;
+}

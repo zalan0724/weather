@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+html{
+    background: rgb(9,1,144);
+    background: linear-gradient(3deg, rgb(255, 193, 132) 0%, rgba(81,179,255,1) 80%);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.App {
+    display: grid;
+    padding: 20px;
+    height: 100vh;
+    grid-gap: 20px;
+    grid-template-columns: 0.5fr 1.5fr;
+    grid-template-rows: 80px auto auto;
+    justify-content: center;
+    align-items: center;
+}
+.Header {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.Current {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+.DetailedDaily {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.DetailedHourly {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.Tab {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    background: white;
+    background: linear-gradient(30deg, rgb(255,255,255) 30%, rgb(230, 230, 230) 100%);
+    border-radius: 10px;
+    padding: 20px;
+}

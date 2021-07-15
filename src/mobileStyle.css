@@ -1,0 +1,33 @@
+@media screen and (max-width: 700px){
+    .App{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 80px auto auto auto;
+        height: 100%;
+    }
+    .Header {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    .Current {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    .DetailedDaily {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+
+    .DetailedHourly {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+}

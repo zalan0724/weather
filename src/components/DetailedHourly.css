@@ -1,0 +1,37 @@
+h3{
+    margin: 0;
+}
+
+.hourlyTab{
+    display: flex;
+    flex-direction: column;
+    overflow-x: auto;
+}
+
+.DetailedHourly{
+    display: flex;
+    overflow-x: auto;
+}
+.detailItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+}
+.hourlyDetails{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: flex-start;
+    text-align: center;
+    background: #0E96DC;
+    height: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+}
+
+.hourlySpan{
+    display: block;
+    margin-bottom: 5px;
+}

@@ -1,0 +1,23 @@
+.h3{
+    display: inline-block;
+}
+
+.dailyTab{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-x: auto;
+}
+
+.hourlyContainer{
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+}
+
+.hourlyItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+}
