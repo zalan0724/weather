@@ -13,13 +13,12 @@ html{
     background-size: cover;
 }
 body{
-    padding: 0;
+    padding: 20px;
     margin: 0;
 }
 
 .App {
     display: grid;
-    padding: 20px;
     height: 100vh;
     grid-gap: 20px;
     grid-template-columns: 0.5fr 1.5fr;
